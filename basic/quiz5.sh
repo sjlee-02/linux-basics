@@ -1,4 +1,3 @@
 #!/bin/sh
-touch toBeMoved.txt
-mkdir newLocation/
-mv toBeMoved.txt newLocation/
+touch original.txt
+cp original.txt copy_of_original.txt
